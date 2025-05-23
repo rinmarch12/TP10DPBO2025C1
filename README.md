@@ -74,55 +74,36 @@ Saya Ririn Marchelina dengan NIM 2303662 mengerjakan Tugas Praktikum 10 dalam ma
 **Navigasi Header:**
 - Header biru dengan judul "Toko Buku Digital"
 - Menu navigasi: Buku, Kategori, Penerbit
-- Styling konsisten menggunakan Bootstrap/CSS framework
-
-**Template System:**
-- Template berbeda untuk setiap jenis tampilan:
-  - Tabel untuk daftar buku
-  - Card layout untuk kategori dan penerbit
-  - Form modal/halaman terpisah untuk input data
-
-### 7. Fitur Tambahan
-**Success Messages:**
-- Parameter URL `?success=add` menampilkan notifikasi berhasil menambah data
-- Feedback visual untuk operasi yang berhasil
-
-**Responsive Design:**
-- Interface responsif untuk berbagai ukuran layar
-- Penggunaan Bootstrap untuk konsistensi tampilan
-
-**Data Validation:**
-- Validasi client-side dan server-side
-- Handling error untuk input yang tidak valid
+- Styling konsisten menggunakan Bootstrap/CSS frameworkZsZ
 
 ## Dokumentasi Visual
 
 ### 1. Form Tambah Buku
-![Form Tambah Buku - Menampilkan form dengan semua field yang diperlukan untuk menambah data buku baru termasuk dropdown untuk kategori dan penerbit]
+![Add Buku](https://github.com/user-attachments/assets/1580964b-ed41-4f09-bc13-0dd2ffb3cc97)
 
 ### 2. Form Tambah Kategori  
-![Form Tambah Kategori - Form sederhana untuk menambah kategori buku baru]
+![Add Kategori](https://github.com/user-attachments/assets/f2db5d34-4ddf-41a8-bf11-e93fd755b1f7)
 
 ### 3. Form Tambah Penerbit
-![Form Tambah Penerbit - Form untuk menambah data penerbit dengan field nama dan alamat]
+![Add Penerbit](https://github.com/user-attachments/assets/8973ab5a-5edd-439a-8bb7-edf7fa2f3fc4)
 
 ### 4. Form Edit Buku
-![Form Edit Buku - Form edit yang sudah terisi dengan data existing dari buku "Negeri 5 Menara"]
+![Edit Buku](https://github.com/user-attachments/assets/1e7a022e-80b8-489d-8968-f3b5c3be9b09)
 
 ### 5. Form Edit Kategori
-![Form Edit Kategori - Form edit untuk mengubah nama kategori yang sudah ada]
+![Edit Kategori](https://github.com/user-attachments/assets/af5d168e-1593-4d3a-84e3-66f3c9d21af7)
 
 ### 6. Form Edit Penerbit  
-![Form Edit Penerbit - Form edit untuk mengubah data penerbit yang sudah ada]
+![Edit Penerbit](https://github.com/user-attachments/assets/7d1c02fd-7b0c-40d6-ae85-e597b73792d7)
 
 ### 7. Daftar Buku (Halaman Utama)
-![Daftar Buku - Tabel berisi daftar semua buku dengan informasi lengkap dan tombol aksi]
+![Tabel Buku](https://github.com/user-attachments/assets/35d3ee63-c6e6-4e56-9078-55361d6d3138)
 
 ### 8. Daftar Kategori
-![Daftar Kategori - Layout card menampilkan semua kategori buku yang tersedia]
+![Tabel Kategori](https://github.com/user-attachments/assets/f9570dc8-bc80-4e83-ae55-2ca3b0a8f47f)
 
 ### 9. Daftar Penerbit
-![Daftar Penerbit - Layout card menampilkan informasi penerbit dengan nama dan alamat]
+![Tabel Penerbit](https://github.com/user-attachments/assets/4c0ee3ff-bfce-4890-a6a3-76a404bd6a80)
 
 ## Struktur Database
 **Tabel Buku:**
@@ -143,10 +124,3 @@ Saya Ririn Marchelina dengan NIM 2303662 mengerjakan Tugas Praktikum 10 dalam ma
 - id_penerbit (Primary Key)
 - nama_penerbit
 - alamat
-
-## Teknologi yang Digunakan
-- **Backend:** PHP dengan paradigma OOP
-- **Database:** MySQL 
-- **Frontend:** HTML, CSS, JavaScript, Bootstrap
-- **Server:** Apache (localhost/XAMPP)
-- **Design Pattern:** MVC (Model-View-Controller)
